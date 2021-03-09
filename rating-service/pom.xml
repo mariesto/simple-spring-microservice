@@ -7,7 +7,7 @@
     <packaging>jar</packaging>
 
     <parent>
-        <groupId>com.mariestp</groupId>
+        <groupId>com.mariesto</groupId>
         <artifactId>spring-simple-microservice</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
