@@ -31,13 +31,13 @@ public class RatingController {
         service.createRating(rating);
     }
 
-    @PutMapping("/{bookId}")
+    @PutMapping("/{ratingId}")
     @ResponseStatus(HttpStatus.OK)
     public void updateRating(@RequestBody Rating rating, @PathVariable Long ratingId){
         service.updateRating(rating, ratingId);
     }
 
-    @DeleteMapping("/{bookId}")
+    @DeleteMapping("/{ratingId}")
     @ResponseStatus(HttpStatus.NO_CONTENT)
     public void deleteRating(@PathVariable Long ratingId){
         service.deleteRating(ratingId);
